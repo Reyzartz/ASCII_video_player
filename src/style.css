@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vb;
+  background-color: #2f2f2f;
+  padding: 24px;
+  gap: 20px;
+}
+
+#controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+}
+
+#controls input {
+  width: 100%;
+  padding: 8px 12px;
+  border-radius: 6px;
+}
+
+#controls button {
+  padding: 8px 12px;
+  border-radius: 6px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+#asciiOutput {
+  flex-grow: 1;
+  width: 100%;
+  border: 1px solid #4e4e4e;
+  border-radius: 8px;
+  text-align: center;
+  vertical-align: middle;
+  overflow: auto;
+}
